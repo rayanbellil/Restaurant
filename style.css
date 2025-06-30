@@ -105,40 +105,52 @@ nav {
 .header-content > h2 {
   color: #42200B;
 }
+.whit-spece{
+  background-color: white;
+  width: 400px;
+  height: 100px;
+}
 .special{
   display: flex;
   justify-content: space-between;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  margin: 20px;
-  border: #1c1b1b 2px solid;
   
+  border: #1c1b1b 2px solid;
+
 }
 .special-image1{
   width: 600px;
-
   
- 
 }
 .special-image2{
-  gap: 20px;
-  margin-top:10px;
-
+ width: 600px;
+ 
+  
+  
 }
 .image-one{
   width: 600px;
-  height: 220px;
+  height: 224px;
+ 
   
-  margin-bottom: 15px;
+
+  
 
 }
 .image-two{
-  width: 600px;
-  height: 220px;
+  width: 630px;
+ 
+ 
   
-  margin-bottom:15px ;
+}
+.one-imge-special{
+  
 
+}
+.two-imge-special{
+ 
+  
 }
 
 

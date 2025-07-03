@@ -236,7 +236,7 @@ li a:hover {
   width: 580px;
 }
 
-.one-imge-special {}
+
 
 .two-imge-special {
   position: relative;
@@ -263,11 +263,11 @@ li a:hover {
   background-color: #FFC135;
 
   font-family: "Bebas Neue", sans-serif;
-font-size: 24px;
-font-weight: 400;
-line-height: normal;
-color: rgb(66, 32, 11);
-padding: 7px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgb(66, 32, 11);
+  padding: 7px;
 
 
 
@@ -296,35 +296,40 @@ padding: 7px;
 }
 
 p {
-   font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: none;
   font-weight: normal;
-  font-style:italic;
+  font-style: italic;
 }
 
-.text-menu{
-  text-align:center;
+.text-menu {
+  text-align: center;
 }
-.menu-food{
+
+.menu-food {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 15px;
 }
-.image-menu-one{
- width: 200px;
- height: 170px;
-}
-.image-menu-two{
-  width:200px;
-   height: 170px;
-}
-.image-menu-thrie{
+
+.image-menu-one {
   width: 200px;
-   height: 170px;
+  height: 170px;
 }
-.Burger-one{
- 
+
+.image-menu-two {
+  width: 200px;
+  height: 170px;
+}
+
+.image-menu-thrie {
+  width: 200px;
+  height: 170px;
+}
+
+.Burger-one {
+
   width: 300px;
   height: 400px;
   display: flex;
@@ -332,44 +337,212 @@ p {
   flex-direction: column;
   align-items: center;
   text-align: center;
-    
+  padding: 10px;
+
+
 
 }
-.Burger-one:hover{
-  box-shadow: 0px 10px 100px rgb(0, 0, 0);
-}
 
-.Burger-two{
-  
-  width: 300px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-.Burger-two:hover{
-  box-shadow: 0px 10px 100px rgb(0, 0, 0);
-}
-
-.Burger-thrie{
- 
-  width: 300px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-.Burger-thrie:hover{
-  box-shadow: 0px 10px 100px rgb(0, 0, 0);
-}
-#menu-button{
-  background-color:#FF0000;
+.Burger-one:hover {
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.228);
   border-radius: 10px;
+  transition: 0.5s
+}
+
+.Burger-two {
+
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.Burger-two:hover {
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.228);
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.Burger-thrie {
+
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.Burger-thrie:hover {
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.228);
+  border-radius: 10px;
+  transition: 0.5s
+}
+
+#menu-button {
+  background-color: #FF0000;
+  padding: 10px;
+  color: white;
+  border: none;
+}
+
+#menu-button:hover {
+  background-color: #42200B;
+}
+
+.Discover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 850px;
+  height: 280px;
+  padding: 10px;
+  gap: 10px;
+  background-color: #ffffffec;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.42);
+  border-style: none;
+  border-radius: 2px;
+}
+
+.logo-discover {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: none;
+  font-weight: 900;
+  font-style: unset;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 60px;
+  color: rgb(66, 32, 11);
+  text-shadow: 2px 3px #FFC135;
+
+
+}
+
+.image-discover {
+  width: 400px;
+
+}
+
+.RESERVATION {
+  display: flex;
+  justify-content: space-between;
+  width: 1265px;
+  height: 100%;
+}
+
+.image-reserve-left {
+  width: 300px;
+}
+
+.logo-reserve {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: none;
+  font-weight: 900;
+  font-style: unset;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 60px;
+  color: rgb(66, 32, 11);
+  text-shadow: 2px 3px #FFC135;
+  display: flex;
+  justify-content: center;
+
+}
+
+.reserve-table>h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-reserve-right {
+  width: 250px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.input-text {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+#input-name {
+  width: 300px;
+  height: 30px;
+}
+
+#input-Email {
+  width: 300px;
+  height: 30px;
+
+
+}
+
+.input-date-time {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+#input-date {
+ width: 300px;
+  height: 30px;
+}
+#input-time{
+ width: 300px;
+  height: 30px;
+
+}
+
+.input-button-number{
+   display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+#input-number{
+ width: 300px;
+  height: 30px;
+}
+#button{
+   width: 300px;
+  height: 38px;
+  background-color: #DF1C1C;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+#button:hover{
+  background-color: #42200B;
+}
+
+footer{
+  background-image: url(img/footer-bg.png);
+  width: 100%;
+  height: 400px;
   color: white;
 }
-.menu-button:hover{
-}  box-shadow: #42200B;
+.logo-footer{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+ text-align: center;
+ 
+}
+
+
+
+
